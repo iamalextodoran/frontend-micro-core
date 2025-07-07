@@ -1,3 +1,9 @@
 packages:
-  - "micro-core"
-  - "micro-one"
+  - micro-core
+  - micro-one
+
+ignoredBuiltDependencies:
+  - esbuild
+
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'

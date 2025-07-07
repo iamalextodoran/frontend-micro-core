@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     federation({
-      name: "app",
+      name: "core_application",
       remotes: {
         Components: "http://localhost:5001/assets/remoteEntry.js",
       },

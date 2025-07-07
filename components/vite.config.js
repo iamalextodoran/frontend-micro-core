@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     federation({
-      name: "remote_app",
+      name: "components_application",
       filename: "remoteEntry.js",
       exposes: {
         "./Button": "./src/components/Button",

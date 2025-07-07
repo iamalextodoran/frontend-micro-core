@@ -47,7 +47,7 @@ const currentImports = {};
          }
          
           if (dontAppendStylesToHead) {
-            const key = 'css__remote_app__' + exposeItemName;
+            const key = 'css__components_application__' + exposeItemName;
             window[key] = window[key] || [];
             window[key].push(href);
             return;

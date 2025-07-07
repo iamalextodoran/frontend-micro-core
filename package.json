@@ -5,9 +5,9 @@
   "scripts": {
     "build": "pnpm --parallel --filter \"./**\" build",
     "serve": "pnpm --parallel --filter \"./**\" preview",
-    "build:remotes": "pnpm --parallel --filter \"./components\" build",
-    "serve:remotes": "pnpm --parallel --filter \"./components\" serve",
-    "dev:hosts": "pnpm --filter \"./host\" dev",
+    "build:remotes": "pnpm --parallel --filter \"./micro-one\" build",
+    "serve:remotes": "pnpm --parallel --filter \"./micro-one\" serve",
+    "dev:hosts": "pnpm --filter \"./micro-core\" dev",
     "stop": "kill-port --port 5000,5001"
   },
   "devDependencies": {

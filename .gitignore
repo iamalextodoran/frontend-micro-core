@@ -1,0 +1,6 @@
+# Ignore build and dependency folders inside each micro frontend
+micro-core/dist
+micro-core/node_modules
+
+micro-one/dist
+micro-one/node_modules
